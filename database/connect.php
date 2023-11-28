@@ -8,7 +8,8 @@ require_once "database/users.php";
 
 try{
     $pdo = new PDO($dsn, $usr, $pass);
-    $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+    $conn = mysqli_connect($host, $usr, $pass , $db);
+    // $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 }catch(PDOException $e){
     echo $e->getMessage();
 }
