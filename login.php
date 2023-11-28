@@ -12,11 +12,12 @@
         }else{
             $_SESSION['username'] = $username;
             $_SESSION['userid'] = $result['id'];
-            header('Location:index.php');
+            header('Location:search.php');
             // echo "sucessfully logged in";
         }
     }
 ?>
+    <div class="login-box">
         <h1 class="text-center"><?php echo "Login"?></h1>
         <form method="POST" action="<?php echo htmlentities($_SERVER['PHP_SELF'])?>">
             <div class="form-group">
