@@ -1,0 +1,145 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins);
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.sections {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 84vh;
+    background:white;
+}
+
+.login-box {
+    position: relative;
+    width: 600px;
+    height: 450px;
+    flex-shrink: 0;
+    background: white;
+    border: 2px solid rgb(230, 211, 211);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(15px);
+    box-shadow: 0px -1px 26.100000381469727px 5px rgba(0, 0, 0, 0.25); 
+}
+
+.h1-login-text {
+    font-size: 3em;
+    color: black;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    bottom: 190px;
+    letter-spacing: 4px;
+    font-weight: 800;
+}
+
+.input-box {
+    position: relative;
+    width: 450px;
+    margin: 30px 0;
+    border-bottom: 2px solid white;
+    bottom: 40px;
+}
+
+.input-box .icon {
+    position: absolute;
+    left: 14px;
+    bottom: 87%;
+    width: 100%;
+    font-size: 22px;
+
+}
+
+.input-box .icon-key {
+    position: absolute;
+    left: 9px;
+    bottom: 87%;
+    width: 100%;
+    font-size: 18px;
+
+}
+.user-label{
+    position: absolute;
+    top: 5px;
+    left: 45px;
+    transform: translateY(-100%);
+    color: black;
+    pointer-events: none;
+    transition: .5s;
+    font-size: 1.2em;
+    font-weight: 800; 
+}
+
+.password-label{
+    position: absolute;
+    top: 15%;
+    left: 45px;
+    transform: translateY(-100%);
+    color: black;
+    pointer-events: none;
+    transition: .5s;
+    font-size: 1.2em;
+    font-weight: 800; 
+}
+
+.input-box input {
+    width: 100%;
+    height: 50px;
+    background: rgb(201, 187, 187);
+    border-radius: 30px;
+    outline: none;
+    text-align:center;
+    font-size: 1.2em ;
+    color: black;
+    border: 1px solid gray;
+    background: #EDEDED;
+    margin-top: 10px;
+}
+
+
+.button {
+    width: 100%;
+    height: 55px;
+    border-radius: 40px;
+    border: 5px solid  #1E8B69;
+    outline: none;
+    color: black;
+    cursor: pointer;
+    font-size: 1.3em;
+    font-weight: 700;
+    overflow: hidden;
+    position: relative;
+    letter-spacing: 2px;
+
+}
+
+.button::after{
+    content:'';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: linear-gradient(180deg, #1FA77C 27.08%, #1E8B69 97.92%);;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    transition: .7s;
+}
+
+.button:hover{
+    color:white;
+    background:linear-gradient(180deg, #1FA77C 27.08%, #1E8B69 97.92%);
+}
+
+@media (max-width: 450px) {
+    .login-box {
+        width: 100%;
+        height: 100vh;
+
+    }
+}
