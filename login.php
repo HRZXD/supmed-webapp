@@ -12,7 +12,7 @@
         }else{
             $_SESSION['username'] = $username;
             $_SESSION['userid'] = $result['id'];
-            header('Location:search.php');
+            header('Location:index.php');
         }
     }
 ?>
