@@ -37,7 +37,7 @@ require_once "session.php"
             </div>
         <?php } else { ?>
             <li class="dropdown list-group move-pos position-absolute">
-                <a class="dropdown-item dropdown-toggle bgcustom" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"><?php echo $_SESSION['username']; ?></a>
+                <a class="dropdown-item dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"><?php echo $_SESSION['username']; ?></a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                     <li><a class="dropdown-item text-danger" href="logout.php">Logout</a></li>
                 </ul>

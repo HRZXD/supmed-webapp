@@ -2,16 +2,16 @@
     $title = "Form Page";
     require_once "layout/header.php";
     require_once "database/connect.php";
-    if($_SERVER["REQUEST_METHOD"]=="POST"){
+    if ($_SERVER["REQUEST_METHOD"]=="POST") {
         $username = $_POST["username"];
         $password = $_POST["password"];
         $cv_password = md5($password.$username);
-        $result = $users->checkUser($username,$cv_password);
-        if(!$result){
+        $result = $users->checkUser($username, $cv_password);
+        if (!$result) {
             echo '<div class="alert alert-danger">Error Username or Password</div>';
-        }else{
-            $_SESSION['username'] = $username;
-            $_SESSION['userid'] = $result['id'];
+        } else {
+            $_SESSION['username'] = $result['username'];
+            $_SESSION['userid'] = $result['u_id'];
             header('Location:index.php');
         }
     }
