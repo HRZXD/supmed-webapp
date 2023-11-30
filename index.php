@@ -30,7 +30,7 @@ require_once "layout/header.php";
 
             <div class="box">
                 <br><br>
-                <img src="https://media.discordapp.net/attachments/1173988881394319422/1179414589167894598/-removebg-preview.png?ex=6579b26e&is=65673d6e&hm=b17ff82402c459b4c4cb13db404252830484762a06e97ed630a844a117e1974c&=&format=webp&quality=lossless&width=278&height=282" width="150" alt="note">
+                <a href="record.php"><img src="https://media.discordapp.net/attachments/1173988881394319422/1179414589167894598/-removebg-preview.png?ex=6579b26e&is=65673d6e&hm=b17ff82402c459b4c4cb13db404252830484762a06e97ed630a844a117e1974c&=&format=webp&quality=lossless&width=278&height=282" width="150" alt="note"></a>
                 <br>
                 <p>&nbsp;&nbsp;&nbsp;&nbsp;กรอกประวัติผู้ป่วย&nbsp;&nbsp;&nbsp;&nbsp;</p>
             </div>

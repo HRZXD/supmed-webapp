@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@300;400;500;600&family=Zen+Kaku+Gothic+New&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai&display=swap');
 
 .container-record {
-    width: 600px;
+    width: 650px;
     height: auto;
     background: white;
     border: 2px solid rgb(223, 223, 223);
@@ -11,50 +11,67 @@
     margin: auto auto;
     padding: 30px;
     font-family: 'Noto Sans Thai', sans-serif;
+    margin-top: 20px;
 }
 .text-header{
     border-bottom: 3px solid #1E8B69 ;
+    margin-bottom: 10px;
 }
 
 .input-n{
   display: grid;
   grid-template-columns: repeat(2, 1Fr);
- 
 }
-
+.textarea-dis{
+    font-size: .88em;
+    font-weight: 300;
+    text-align: justify;
+    border-radius: 10px;
+    background: #E7E7E7;
+    border: 0;
+    word-wrap: break-word;
+}
 .in-n{
   border: 2px solid rgb(223, 223, 223);
   border-radius: 10px;
   background-color: rgb(226, 226, 226);
   width: 250px;
+  height: 30px;
+  margin-top: -10px;
+  margin-bottom: 20px;
+  margin-right: 10px;
 }
 .in-d{
     border: 2px solid rgb(223, 223, 223);
     border-radius: 10px;
     background-color: rgb(226, 226, 226);
     width: 50px;
-    height: 25px;
+    height: 30px;
+    margin-top: -10px;
+
 }
 .in-dmy{
     border: 2px solid rgb(223, 223, 223);
     border-radius: 10px;
     background-color: rgb(226, 226, 226);
     width: 250px;
-    height: 25px;
+    height: 30px;
+    margin-bottom:20px;
+
 }
 .in-t{
     border: 2px solid rgb(223, 223, 223);
     border-radius: 10px;
     background-color: rgb(226, 226, 226);
     width: 590px;
-    height: 25px;
+    height: 30px;
 }
 .in-m{
     border: 2px solid rgb(223, 223, 223);
     border-radius: 10px;
     background-color: rgb(226, 226, 226);
     width: 285px;
-    height: 25px;
+    height: 30px;
     
 }
 .disease-in{
@@ -70,23 +87,35 @@
     justify-content: space-between;
     gap: 10px;
 }
+.history-m-field{
+    margin-top: 60px;
+}
 .history-m-in{
     display: flex;
     flex-direction: row;
     gap: 10px;
 }
+.history-c-field{
+    margin-top: 20px;
+}
+.treatment-field{
+    margin-top: 12px;
+}
 .buttom-his{
     display: flex;
     flex-direction: row;
     gap: 10px;
+    
 }
-button{
+.btn-ucs{
     width: 50%;
     height: 55px;
     border-radius: 20px;
     border: 2px solid  #1E8B69;
+    font-family: 'Noto Sans Thai', sans-serif;
+    font-size: 16px;
 }
-button:hover{
+.btn-ucs:hover{
     color:white;
     background:linear-gradient(180deg, #1FA77C 27.08%, #1E8B69 97.92%);
 }
