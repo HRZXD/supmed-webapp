@@ -17,9 +17,9 @@
     }
 ?>
     <section class="sections">
+        <h1 class="h1-login-text mb-5">Login</h1>
         <div class="login-box">
             <form method="POST" action="<?php echo htmlentities($_SERVER['PHP_SELF'])?>">
-                <h1 class="h1-login-text"><div class="login-text">Login</div></h1>
                 <div class="input-box">
                     <span class="icon">
                         <ion-icon name="person"></ion-icon>

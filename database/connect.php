@@ -14,5 +14,6 @@ try{
     echo $e->getMessage();
 }
 $users = new User($pdo);
-// $users->insertUser("125","admin2","123456");
+
+$users->insertUser("125","admin2","123456");
 ?>
