@@ -13,7 +13,7 @@ INSERT INTO `doctor` (`id`, `u_id`, `username`, `password`) VALUES
 (1, 125, 'admin2', 'd39d9979f71ac0f80759ddcdcd2309ed');
 
 --
--- Another table
+-- patient table
 --
 
 CREATE TABLE `patient` (
@@ -45,4 +45,27 @@ CREATE TABLE `patient` (
 
 INSERT INTO `patient` (`user_id`, `fname`, `lname`, `birthday`, `weight`, `height`, `day_latest`, `hs_name`, `department`, `doc_name`, `doc_id`, `pulse`, `results`, `med_recieve`, `meder_name`, `meder_id`, `appointment`, `tracking`, `danger_med`, `med_continuous`) VALUES
 (12345, 'Johna', 'Cenda', '1990-10-15', 90, 186, '2023-01-04', 'Hospital', 'lapdwa', 'Janea', 4564, 69, 'adsdjkasjdkwioajidsj', 'mdkasjiasjdioasjidas', 'Janea', 14868, '2024-12-15', 'akosdoadsdasd', 'asdasdasdasd', 'ufahuenfjhauidfh');
+COMMIT;
+
+--
+-- vaccine table
+--
+
+CREATE TABLE `vaccine` (
+  `user_id` int(13) NOT NULL,
+  `nm_vac` text NOT NULL,
+  `num_vac` int(11) NOT NULL,
+  `date_vac` text NOT NULL,
+  `id_vac` int(11) NOT NULL,
+  `agency_vac` text NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `vaccine`
+--
+
+INSERT INTO `vaccine` (`user_id`, `nm_vac`, `num_vac`, `date_vac`, `id_vac`, `agency_vac`) VALUES
+(12345, 'dnaksda', 1, '15-15-15', 4556489, 'fdsfsaf'),
+(12345, 'dnaksdafsd', 2, '15-5-5', 2147483647, 'fdsfsaf'),
+(123456, 'dnaksda', 1, '15-15-15', 4556489, 'fdsfsaf');
 COMMIT;

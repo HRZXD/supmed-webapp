@@ -24,14 +24,17 @@ require_once "session.php"
     <link rel="stylesheet" href="css/nav-bar.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/casehistory.css">
+    <link rel="stylesheet" href="css/vaccine-style.css">
 </head>
 
 <body>
     <div class="nav-bar">
         <div class="icon-home">
-            <svg xmlns="http://www.w3.org/2000/svg" width="41" height="40" viewBox="0 0 41 40" fill="none">
-                <path d="M17.0834 31.2044V22.9928H23.9167V31.2044C23.9167 32.1077 24.6855 32.8468 25.625 32.8468H30.75C31.6896 32.8468 32.4584 32.1077 32.4584 31.2044V19.7081H35.3625C36.1484 19.7081 36.5242 18.772 35.9263 18.2792L21.6446 5.91245C20.9955 5.35405 20.0046 5.35405 19.3555 5.91245L5.0738 18.2792C4.49296 18.772 4.85171 19.7081 5.63755 19.7081H8.54171V31.2044C8.54171 32.1077 9.31046 32.8468 10.25 32.8468H15.375C16.3146 32.8468 17.0834 32.1077 17.0834 31.2044Z" fill="white" />
-            </svg>
+            <a href="#" id="btn-for-go">
+                <svg xmlns="http://www.w3.org/2000/svg" width="41" height="40" viewBox="0 0 41 40" fill="none">
+                    <path d="M17.0834 31.2044V22.9928H23.9167V31.2044C23.9167 32.1077 24.6855 32.8468 25.625 32.8468H30.75C31.6896 32.8468 32.4584 32.1077 32.4584 31.2044V19.7081H35.3625C36.1484 19.7081 36.5242 18.772 35.9263 18.2792L21.6446 5.91245C20.9955 5.35405 20.0046 5.35405 19.3555 5.91245L5.0738 18.2792C4.49296 18.772 4.85171 19.7081 5.63755 19.7081H8.54171V31.2044C8.54171 32.1077 9.31046 32.8468 10.25 32.8468H15.375C16.3146 32.8468 17.0834 32.1077 17.0834 31.2044Z" fill="white" />
+                </svg>
+            </a>
         </div>
         <?php if (!isset($_SESSION["userid"])) { ?>
             <div class="icon-user">
@@ -52,4 +55,5 @@ require_once "session.php"
                 </svg>
             </div>
         <?php } ?>
+        <script src="js/script.js"></script>
     </div>

@@ -100,7 +100,10 @@ $result = $controller->getDetails($userID);
         <div>
           <p class="text-in-contain">ประวัติการรักษา</p>
           <div class="history">
-            <button class="button-for-clickdata">การฉีดวัคซีน</button>
+            <form method="get" action="vaccine.php">
+              <input type="hidden" name="user_id" value="<?php echo $result['user_id'];?>">
+              <button class="button-for-clickdata">การฉีดวัคซีน</button>
+            </form>
             <button class="button-for-clickdata">การรักษา</button>
           </div>
         </div>
