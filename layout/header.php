@@ -23,6 +23,7 @@ require_once "session.php"
     <link rel="stylesheet" href="css/loginstyle1.css">
     <link rel="stylesheet" href="css/nav-bar.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/casehistory.css">
 </head>
 
 <body>

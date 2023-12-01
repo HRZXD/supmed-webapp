@@ -5,6 +5,7 @@ $pass = "";
 $db = "supmed";
 $dsn = "mysql:host=$host;dbname=$db;charset=utf8";
 require_once "database/users.php";
+require_once "database/controller.php";
 
 try{
     $pdo = new PDO($dsn, $usr, $pass);
@@ -13,6 +14,7 @@ try{
     echo $e->getMessage();
 }
 $users = new User($pdo);
+$controller = new Controller($pdo);
 
 // $users->insertUser("125","admin2","123456");
 ?>
