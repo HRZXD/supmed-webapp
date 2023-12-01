@@ -2,6 +2,7 @@
 
 require_once "layout/header.php";
 require_once "database/connect.php";
+require_once "layout/check_admin.php";
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $inputUserID = $_POST["search"];

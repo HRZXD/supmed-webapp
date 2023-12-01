@@ -3,6 +3,7 @@
 require_once "layout/header.php";
 require_once "database/controller.php";
 require_once "database/connect.php";
+require_once "layout/check_admin.php";
 $userID = $_GET["user_id"];
 
 $sql = "SELECT * FROM vaccine WHERE user_id = :user_id";

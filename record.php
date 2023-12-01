@@ -1,6 +1,7 @@
 <?php
 
 require_once "layout/header.php";
+require_once "layout/check_admin.php";
 
 ?>
 
