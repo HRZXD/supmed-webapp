@@ -15,6 +15,6 @@ try{
 }
 $users = new User($pdo);
 $controller = new Controller($pdo);
+$doctor = new User($pdo);
 
-// $users->insertUser("125","admin2","123456");
 ?>

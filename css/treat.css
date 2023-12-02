@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai&display=swap');
+
+.contain-treat{
+    width: 600px;
+    height: auto;
+    background: white;
+    border: 2px solid rgb(223, 223, 223);
+    border-radius: 40px;
+    backdrop-filter: blur(15px);
+    box-shadow: 0px -1px 26.100000381469727px 5px rgba(0, 0, 0, 0.25); 
+    margin: auto auto;
+    height: auto;
+    font-family: 'Noto Sans Thai', sans-serif;
+
+    
+}
+.top-con{
+    border-top-left-radius:20px;
+    border-top-right-radius:20px;
+    background: linear-gradient(180deg, #1FA77C 27.08%, #1E8B69 97.92%);;
+    width: 600px;
+    height: 50px;
+    color: white;
+}
+.sub-container-treat{
+    padding: 30px;
+    margin: auto auto;
+}
+.text-main{
+    padding: 10px;
+    margin: auto auto;
+}
+.select-choice{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+    height: 30px;
+}
+
+.option-in-selection{
+    border: 2px solid rgb(223, 223, 223);
+    border-radius: 10px;
+    background-color: rgb(226, 226, 226);
+    width: 140px;
+    height: auto;
+}
+.icon-for-input{
+    width: 50px;
+    height: 40px;
+    background: white;
+    border: 2px solid rgb(223, 223, 223);
+    border-radius: 15px;
+    backdrop-filter: blur(15px);
+    box-shadow: 0px -1px 5px 2px rgba(121, 121, 121, 0.25); 
+}
+.div-display-flex{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+.data-label{
+    border: 2px solid rgb(223, 223, 223);
+    border-radius: 20px;
+    background-color: rgb(226, 226, 226);
+    width: 370px;
+    height: auto;
+}
+.dmy{
+    border: 2px solid rgb(223, 223, 223);
+    border-radius: 5px;
+    background-color: rgb(226, 226, 226);
+    width: 40px;
+    height: auto;
+    color: dimgray;
+    margin: auto auto;
+    padding: 2px;
+}
+.D-M-Y{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+.lab{
+    border: 2px solid rgb(223, 223, 223);
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    width: 150px;
+    height: auto;
+    backdrop-filter: blur(15px);
+    box-shadow: 0px -1px 5px 2px rgba(121, 121, 121, 0.25);
+    
+}
+.flex-contain{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+.tag-p-alls{
+    margin: 1px;
+    padding: 6px;
+}
+.drug-quantity{
+    border: 2px solid rgb(223, 223, 223);
+    border-radius: 20px;
+    background-color: rgb(226, 226, 226);
+    width: 70px;
+    height: 20px;
+    margin: 0px;
+    padding: 5px;
+}
+.drug-name{
+    border: 2px solid rgb(223, 223, 223);
+    border-radius: 20px;
+    background-color: rgb(226, 226, 226);
+    width: 220px;
+    height: 20px;
+    margin: 0px;
+    padding: 5px;
+}
+.btn-custom-success{
+    margin-left: 15em;
+}

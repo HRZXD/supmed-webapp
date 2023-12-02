@@ -26,6 +26,7 @@ require_once "session.php"
     <link rel="stylesheet" href="css/casehistory.css">
     <link rel="stylesheet" href="css/vaccine-style.css">
     <link rel="stylesheet" href="css/btn-back.css">
+    <link rel="stylesheet" href="css/treat.css">
 </head>
 
 <body>

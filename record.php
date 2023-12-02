@@ -59,6 +59,6 @@ require_once "layout/check_admin.php";
       <input type="text" id="treatment" class="in-t" disabled>
     </div>
   </div>
-  <center><input type="submit" name="submit" value="ไปหน้าถัดไป" class="btn btn-outline-success mt-3"></center>
+  <center><a href="treat-user.php"><input type="submit" name="submit" value="ไปหน้าถัดไป" class="btn btn-outline-success mt-3"></a></center>
 </div>
 </body>
