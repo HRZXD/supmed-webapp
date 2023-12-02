@@ -1,0 +1,18 @@
+.button-back button{
+    margin: 20px 50px;
+    padding: 10px 40px;     
+    border: 3px solid #1FA77C;
+    background: none;
+    border-radius: 20px;
+    transition: all 0.5s;
+}
+
+.button-back button:hover{
+    border: 3px solid #1FA77C;
+    background: linear-gradient(180deg, #1FA77C 0%, #1E8B69 87.5%);
+}
+
+.button-back a {
+    text-decoration: none;
+    color: black;
+}
