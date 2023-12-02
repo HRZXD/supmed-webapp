@@ -20,14 +20,14 @@
         <h1 class="h1-login-text mb-5">Login</h1>
         <div class="login-box">
             <form method="POST" action="<?php echo htmlentities($_SERVER['PHP_SELF'])?>">
-                <div class="input-box">
+                <div class="input-box-log">
                     <span class="icon">
                         <ion-icon name="person"></ion-icon>
                     </span>
                     <label for="username" class="user-label">User ID</label>
                     <input type="text" name="username" value="<?php if($_SERVER["REQUEST_METHOD"]=="POST") echo $_POST["username"];?>">
                 </div>
-                <div class="input-box">
+                <div class="input-box-log">
                     <span class="icon-key">
                         <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g id="&#240;&#159;&#166;&#134; icon &#34;vpn key&#34;">
