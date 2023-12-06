@@ -51,4 +51,16 @@ Supmed prioritizes patient confidentiality and data security through:
   - Granular control over user roles and permissions to safeguard sensitive information. 
 
 ## Teams Of This Project
-EEXIN , MAY , NEW , HARIS , KAWPAN , GAIN , TAE , RAN , NICE , TAE-TAE
+IT Support & Data Scientist
+- Eexin
+- New
+Front End Developer
+- Gain
+- Tae
+- Nice
+- May
+- Kawpan
+- Ran
+- Tae-Tae
+Back End Developer
+- Haris
