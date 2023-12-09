@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai&display=swap');
+
+.custom-font-form{
+    font-family: 'Noto Sans Thai', sans-serif;
+}
+.slidepic{
+    display: none;
+}
+.custom-forms{
+ background-color: #EDEDED;
+}
+.cards{
+    padding-left: 5em;
+    padding-right: 5em;
+}
+.custom-btn{
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+.custom-card{
+    width: 40em;
+}
+.b{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: #ededed;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.fade-effect{
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+@keyframes fade {
+    from {
+      opacity: 0.4;
+    }
+    to {
+      opacity: 1;
+    }
+  }
