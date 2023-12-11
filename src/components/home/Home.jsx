@@ -1,5 +1,6 @@
 import React , {useEffect} from 'react';
 import './home.css';
+import { nextSlide } from './HomeScript';
 
 function Home() {
     useEffect(() => {
@@ -22,12 +23,20 @@ function Home() {
       }, []);
   return (
     <div className="container">
-      <div className="d-flex justify-content-center">
+      <div className="d-flex justify-content-center position-relative">
         <div className="slidepic fade-effect">
           <img src="./public/images/banner1.jpg" alt="banner1" width={"1000px"} height={"400px"} />
         </div>
         <div className="slidepic fade-effect">
           <img src="./public/images/banner2.png" alt="banner2" width={"1000px"} height={"400px"} />
+        </div>
+        <div className="custom-box-click">
+          <button className='click-btn-next click-btn' onClick={()=> nextSlide(1)}>&#10094;</button>
+          <button className='click-btn-previous click-btn' onClick={()=> nextSlide(1)}>&#10095;</button>
+        </div>
+        <div className="slidebar">
+          <span className="bar"></span>
+          <span className="bar"></span>
         </div>
       </div>
       <div className="d-flex align-items-center flex-column mt-5 custom-font-form">
