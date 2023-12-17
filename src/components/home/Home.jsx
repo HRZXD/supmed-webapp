@@ -16,7 +16,7 @@ function Home() {
             slideDefault = 1;
           }
           slides[slideDefault - 1].style.display = "block";
-          setTimeout(showSlides, 60000);
+          setTimeout(showSlides, 80000);
         }
         showSlides();
         return () => clearTimeout(showSlides);
@@ -25,18 +25,14 @@ function Home() {
     <div className="container">
       <div className="d-flex justify-content-center position-relative">
         <div className="slidepic fade-effect">
-          <img src="./public/images/banner1.jpg" alt="banner1" width={"1000px"} height={"400px"} />
+          <img src="./public/images/banner1.jpg" alt="banner1" width={"1903px"} height={"800px"} />
         </div>
         <div className="slidepic fade-effect">
-          <img src="./public/images/banner2.png" alt="banner2" width={"1000px"} height={"400px"} />
+          <img src="./public/images/banner2.png" alt="banner2" width={"1903px"} height={"800px"} />
         </div>
-        <div className="custom-box-click">
-          <button className='click-btn-next click-btn' onClick={()=> nextSlide(1)}>&#10094;</button>
-          <button className='click-btn-previous click-btn' onClick={()=> nextSlide(1)}>&#10095;</button>
-        </div>
-        <div className="slidebar">
-          <span className="bar"></span>
-          <span className="bar"></span>
+        <div className="slidebar position-absolute">
+          <span className="bar" onClick={()=> nextSlide(1)}></span>
+          <span className="bar" onClick={()=> nextSlide(1)}></span>
         </div>
       </div>
       <div className="d-flex align-items-center flex-column mt-5 custom-font-form">

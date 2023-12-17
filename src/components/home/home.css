@@ -19,6 +19,7 @@
 }
 .custom-card{
     width: 40em;
+    margin-bottom: 10em;
 }
 .b{
     border-top-left-radius: 10px;
@@ -27,38 +28,14 @@
     padding-top: 10px;
     padding-bottom: 10px;
 }
-.custom-box-click{
-    position: absolute;
-    display: flex;
-    justify-content: space-between;
-}
-.click-btn-next{
-    position: absolute;
-    right: 25em;
-}
-.click-btn-previous{
-    position: absolute;
-    left: 25em;
-}
-.click-btn{
-    cursor: pointer;
-    width: auto;
-    margin-top: 10em;
-    padding: 16px;
-    background-color: transparent;
-    border: none;
-    color: black;
-    font-weight: bold;
-    font-size: 18px;
-    transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
+.slidebar{
+    bottom: 15px;
 }
 .bar{
     cursor: pointer;
     height: 7px;
     width: 60px;
-    margin: 0 2px;
+    margin: 0 8px;
     background-color: #bbb;
     border-radius: 10px;
     display: inline-block;
