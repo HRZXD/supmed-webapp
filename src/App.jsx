@@ -5,15 +5,20 @@ import Header from './components/header/Header'
 import LoginPage from './components/login/LoginPage';
 import Home from './components/home/Home';
 import Data from './components/data/Data';
+import { BrowserRouter, Routes , Route } from 'react-router-dom';
 
 function App() {
   const [count, setCount] = useState(0)
   return (
-    <div className='App'>
+    <BrowserRouter>
       <Header />
-      {/* <LoginPage /> */}
-      <Home />
-    </div>
+      <Routes>
+        <Route path='/' element={<LoginPage />}></Route>
+        <Route path='/home' element={<Home />}></Route>
+      </Routes>
+
+      {/* <Home /> */}
+    </BrowserRouter>
   );
 }
 
