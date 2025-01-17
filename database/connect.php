@@ -1,9 +1,10 @@
 <?php
-$host = "localhost";
+$host = "autorack.proxy.rlwy.net";
+$port = "38918"; // Add the port number
 $usr = "root";
-$pass = "";
-$db = "supmed";
-$dsn = "mysql:host=$host;dbname=$db;charset=utf8";
+$pass = "cIDkfpxVDQUgruPWDAXGHvkllBMNFOfC";
+$db = "railway";
+$dsn = "mysql:host=$host;port=$port;dbname=$db;charset=utf8"; // Include the port in the DSN
 require_once "database/users.php";
 require_once "database/controller.php";
 
